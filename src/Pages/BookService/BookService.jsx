@@ -22,7 +22,7 @@ const BookService = () => {
       price: price,
     };
     console.log(booking);
-    fetch("https://car-doctor-server-p2jz.onrender.com/bookings", {
+    fetch("https://car-doctor-server-w4gr.vercel.app/bookings", {
       method: "POST",
       headers: {
         "content-type": "application/json",

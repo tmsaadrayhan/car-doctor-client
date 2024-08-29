@@ -41,7 +41,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`https://car-doctor-server-p2jz.onrender.com/services/${params.id}`),
+          fetch(`https://car-doctor-server-w4gr.vercel.app/services/${params.id}`),
       },
       {
         path: "bookings",

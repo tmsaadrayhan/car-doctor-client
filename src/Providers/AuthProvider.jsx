@@ -41,7 +41,7 @@ const AuthProvider = ({ children }) => {
         const loggedUser = {
           email: currentUser.email,
         };
-        fetch("https://car-doctor-server-p2jz.onrender.com/jwt", {
+        fetch("https://car-doctor-server-w4gr.vercel.app/jwt", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(loggedUser),

@@ -4,7 +4,7 @@ import ServicesCard from "./ServicesCard";
 const Services = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("https://car-doctor-server-p2jz.onrender.com/services")
+    fetch("https://car-doctor-server-w4gr.vercel.app/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   });
